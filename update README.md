@@ -88,7 +88,7 @@ model Transaction {
   id          String  @id @default(uuid())
   description String
   amount      Float
-  type        String // "income" ou "expense"
+  type        String // 
   date        String
 }
 ```
@@ -124,5 +124,4 @@ npx prisma migrate dev
 
 ---
 
-Criado por [@guvdutra](https://github.com/guvdutra) 😊
-
+© Projeto desenvolvido por Guilherme Noronha de Agostini e Gustavo Viana Avelar Dutra para a disciplina Programação Web, realizada na UFLA - Universidade Federal de Lavras.
