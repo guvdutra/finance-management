@@ -1,4 +1,4 @@
-# 📌 Sistema de Gestão Financeira
+# 📌 Sistema de Gestão de Despesas
 
 Este é um sistema simples de **gestão de despesas pessoais**, desenvolvido com **Fastify, Prisma e Next.js**. Ele permite **cadastrar, listar e deletar transações financeiras**, categorizadas como "Entrada" ou "Saída".
 
@@ -51,9 +51,9 @@ npm run dev
 
 | Método | Rota | Descrição |
 |--------|------|-------------|
-| **GET** | `/api/transactions` | Lista todas as transações |
-| **POST** | `/api/transactions` | Cria uma nova transação |
-| **DELETE** | `/api/transactions/:id` | Deleta uma transação pelo ID |
+| **GET** | `/api/transacoes` | Lista todas as transações |
+| **POST** | `/api/transacoes` | Cria uma nova transação |
+| **DELETE** | `/api/transacoes/:id` | Deleta uma transação pelo ID |
 
 ### **Exemplo de Requisição (POST `/api/transactions`)**
 ```json
