@@ -1,11 +1,11 @@
-# 📌 Sistema de Gestão de Despesas
+# 📌 Sistema de Gestão de Finanças
 
-Este é um sistema simples de **gestão de despesas pessoais**, desenvolvido com **Fastify, Prisma e Next.js**. Ele permite **cadastrar, listar e deletar transações financeiras**, categorizadas como "Entrada" ou "Saída".
+Este é um sistema simples de **gestão de finanças pessoais**, desenvolvido com **Fastify, Prisma e Next.js**. Ele permite **cadastrar, listar e deletar transações financeiras**, categorizadas como "Entrada" ou "Saída".
 
 ## 📂 Estrutura do Projeto
 
 ```bash
-gestao-despesas/
+gestao-financas/
 │── backend/          # Código do servidor Fastify
 │   ├── prisma/       # Configuração do banco de dados SQLite
 │   ├── server.ts     # Código principal do backend
@@ -22,8 +22,8 @@ gestao-despesas/
 
 ### 1️⃣ **Clonar o Repositório**
 ```sh
-git clone https://github.com/guvdutra/gestao-despesas.git
-cd gestao-despesas
+git clone https://github.com/guvdutra/gestao-financas.git
+cd gestao-financas
 ```
 
 ### 2️⃣ **Rodar o Backend (Fastify + Prisma + SQLite)**
