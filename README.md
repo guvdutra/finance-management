@@ -1,4 +1,4 @@
-# 📌 Sistema de Gestão de Finanças
+# 📌 Finance Tracker - Sistema de Gestão de Finanças
 
 Este é um sistema simples de **gestão de finanças pessoais**, desenvolvido com **Fastify, Prisma e Next.js**. Ele permite **cadastrar, listar e deletar transações financeiras**, categorizadas como "Entrada" ou "Saída".
 
