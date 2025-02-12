@@ -1,11 +1,11 @@
 # 📌 Sistema de Gestão Financeira
 
-Este é um sistema simples de **gestão de finanças pessoais**, desenvolvido com **Fastify, Prisma e Next.js**. Ele permite **cadastrar, listar e deletar transações financeiras**, categorizadas como "Entrada" ou "Saída".
+Este é um sistema simples de **gestão de despesas pessoais**, desenvolvido com **Fastify, Prisma e Next.js**. Ele permite **cadastrar, listar e deletar transações financeiras**, categorizadas como "Entrada" ou "Saída".
 
 ## 📂 Estrutura do Projeto
 
 ```bash
-finance-management/
+gestao-despesas/
 │── backend/          # Código do servidor Fastify
 │   ├── prisma/       # Configuração do banco de dados SQLite
 │   ├── server.ts     # Código principal do backend
@@ -22,8 +22,8 @@ finance-management/
 
 ### 1️⃣ **Clonar o Repositório**
 ```sh
-git clone https://github.com/guvdutra/finance-management.git
-cd finance-management
+git clone https://github.com/guvdutra/gestao-despesas.git
+cd gestao-despesas
 ```
 
 ### 2️⃣ **Rodar o Backend (Fastify + Prisma + SQLite)**
@@ -114,13 +114,6 @@ npx prisma migrate dev
 
 ### 🔹 **Banco de Dados**
 - **SQLite** - Banco de dados leve e eficiente para desenvolvimento local
-
----
-
-## 🚀 Melhorias Futuras
-- [ ] Autenticação de usuários
-- [ ] Relatórios financeiros
-- [ ] Exportação de dados (CSV, PDF)
 
 ---
 
